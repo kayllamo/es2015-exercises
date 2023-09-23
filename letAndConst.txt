@@ -1,0 +1,17 @@
+ES5 GLOBAL CONSTANTS
+
+var PI = 3.14;
+PI = 42; // stop me from doing this!
+
+ES2015 GLOBAL CONSTANTS 
+-- write an ES2015 version -- 
+
+const PI = 3.14; 
+PI = 42 // not allowed to reassign const variables
+
+
+QUIZ
+1. Var is able to be reassigned and redeclared. Let can only be reassigned, but not redeclared. Var is also scoped within a function while let is within blocks or {}. 
+2. Const is not able to be reassigned or redeclared. Const is also scoped within blocks of code, however, if they hold non-primitives (arrays or objects), then they can be manipulated at a later time. 
+3. Let and const are scoped within blocks of code but const cannot be reassigned or redeclared. 
+4. Hoisting is where var variables are ran first, before the rest of the code as it would usually be read from top to bottom. 
